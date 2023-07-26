@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+    .flex-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .menu-medium{
+        font-size: 1.2rem;
+    }
+
+    .redes-medium {
+       transform: scale(75%);
+    }
+
+    .font-medium {
+        transform: scale(85%);
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .social-bar {
+        display: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .menu-small {
+        font-size: 0.8rem;
+    }
+
+    .font-small {
+        transform: scale(85%);
+    }
+
+    .container-gallery  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-gallery .card .card__head {
+        transform: rotate(-0deg)
+    }
+
+    .hideen-text {
+        display: none;
+    }
+
+         
+     
+}
+
+
+@media (max-width: 768px) {
+    
+    .hideen-text {
+        display: none;
+    }
+
+    
+}
+
